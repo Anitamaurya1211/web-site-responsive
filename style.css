@@ -1,0 +1,81 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'Josefin sans', sans-serif;
+}
+h1{
+    margin: 50px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* .div{
+    background-color: rgb(29, 143, 118);
+} */
+
+.nishu{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.sharvan{
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+.sharvan img{
+    width: 380px;
+}
+.sharvan a{
+    text-align: center;
+}
+ .maurya{
+    width: 80%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.7;
+    text-decoration: solid;
+    font-size: 100%;
+ }
+
+  /* -------media Queries--------- */
+
+ /* ---------desktops and laptops----------- */
+
+ /* -------Tablests and iPads--------- */
+
+ /* ------------mobile phones----------- */ 
+
+ @media (max-width:768px) {
+    h1{
+        color:#3498db;
+    }
+
+    .nishu{
+        display: block;
+    }
+
+    .sharvan{
+        width: 50%;
+    }
+
+  .maurya{
+    width: 100%;
+   }
+
+   .sharvan img{
+    width: 100px;
+    height: auto;
+}
+
+}
+
+@media (max-width: 468px){
+    .sharvan img{
+        padding: 10%;
+        box-sizing: border-box;
+    }  
+}
